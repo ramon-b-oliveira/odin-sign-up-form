@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url(assets/Norse-Bold.otf);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    max-width: 1600px;
+}
+.side-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    height: 100vh;
+    background-image: url(assets/tobias-pfeifer-qBzsuT-AiSQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 300px;
+    color: white;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo-container img {
+    height: 170px;
+    width: auto;
+}
+
+.logo-container h1 {
+    font-size: 130px;
+    font-family: "Norse Bold";
+}
+
+.side-footer {
+    position: absolute;
+    bottom: 15px;
+    color: white;
+}
+
+.side-footer a {
+    color: white;
+    text-decoration: underline;
+}
