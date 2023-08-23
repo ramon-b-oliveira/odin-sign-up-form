@@ -18,25 +18,24 @@
     </div>
     <div class="content">
         <div class="dummy-text">
-            <p class="text">
+            <p>
                 This is not a real online service! You know you need something like this in your
                 life to help you realize your deepest dreams. <br> Sign up <span class="italic-text">now</span> to get
                 started.
-                <br> <span>You know you want to</span>
             </p>
+            <p>You know you want to.</p>
         </div>
-        <form action="#">
+        <form class="form" action="#">
             <h2>Let's do this!</h2>
-
-            <fieldset>
+            <fieldset class="info">
                 <div class="input">
                     <label for="first_name">First Name</label>
-                    <input type="text" name="first_name" id="first_name">
+                    <input type="text" name="first_name" id="first_name" placeholder="Thor" required>
                 </div>
 
                 <div class="input">
                     <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" id="last_name">
+                    <input type="text" name="last_name" id="last_name" placeholder="Odinson" required>
                 </div>
 
                 <div class="input">
@@ -59,12 +58,11 @@
                     <input type="password" name="password" id="password" required>
                 </div>
             </fieldset>
-
-            <fieldset>
-                <button type="submit">Create Account</button>
-            </fieldset>
         </form>
-        <p>Already have an account?</p><a href="#">Log in</a>
+        <button class="create-account" type="submit">Create Account</button>
+        <div class="log-in">
+            <p>Already have an account?</p><a href="#">Log in</a>
+        </div>
     </div>
 </body>
 <script src="script.js"></script>
