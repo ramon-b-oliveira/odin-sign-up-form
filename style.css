@@ -10,13 +10,13 @@ a {
 body {
     display: flex;
     align-items: center;
-    max-width: 1600px;
+    justify-content: center;
 }
 .side-tab {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 35%;
+    width: 666px;
     height: 100vh;
     background-image: url(assets/tobias-pfeifer-qBzsuT-AiSQ-unsplash.jpg);
     background-size: cover;
