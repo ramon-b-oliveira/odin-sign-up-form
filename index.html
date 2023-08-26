@@ -34,36 +34,38 @@
             <fieldset class="info">
                 <div class="input">
                     <label for="first_name">First Name</label>
-                    <input type="text" name="first_name" id="first_name" placeholder="Thor" required>
+                    <input type="text" name="first_name" id="first_name" placeholder="Thor">
                 </div>
 
                 <div class="input">
                     <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" id="last_name" placeholder="Odinson" required>
+                    <input type="text" name="last_name" id="last_name" placeholder="Odinson">
                 </div>
 
                 <div class="input">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" placeholder="thor@odin.com">
                 </div>
 
                 <div class="input">
                     <label for="phone_number">Phone Number</label>
-                    <input type="tel" id="phone_number" name="phone_number">
+                    <input type="tel" id="phone_number" name="phone_number" placeholder="(000) 000 0000">
                 </div>
 
                 <div class="input">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
+                    <label for="password1">Password</label>
+                    <input type="password" name="password" name="password1" id="password1">
+                    <p class="password-alert hidden">*Passwords do not match</p>
                 </div>
 
                 <div class="input">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
+                    <label for="password2">Confirm Password</label>
+                    <input type="password" name="password" name="password2" id="password2">
                 </div>
+
             </fieldset>
             <div class="create-account-div">
-                <button class="create-account" type="submit">Create Account</button>
+                <button class="create-account" type="button">Create Account</button>
             </div>
         </form>
         <div class="log-in">
