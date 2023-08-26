@@ -88,19 +88,25 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    height: 400px;
-    padding: 40px 40px 0 40px;
+    height: auto;
 }
 
-.form .info {
+.info {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
-    height: 350px;
+    width: auto;
+    height: 300px;
+    box-shadow: 0 8px 8px -5px rgb(150, 150, 150);
+  
+}
+
+.h2-div, .info {
+    padding-left: 40px;
 }
 
 .form h2 {
     font-size: 35px;
+    margin: 20px 0;
 }
 
 .input {
@@ -127,9 +133,16 @@ input:focus {
     border: #37b6ff solid 1px;
 }
 
+.create-account-div {
+    margin-top: 10px;
+    padding-top: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: #f8f8f8;
+}
+
 .create-account {
     color: white;
-    margin-top: 40px;
     margin-left: 40px;
     border-radius: 10px;
     border: none;
@@ -140,6 +153,8 @@ input:focus {
 }
 
 .log-in {
+    width: 100%;
+    height: 60px;
     font-size: 20px;
     margin: 40px;
     display: flex;
